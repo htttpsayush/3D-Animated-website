@@ -19,6 +19,7 @@ html {
     color: var(--text-primary);
     font-family: var(--font-main);
     overscroll-behavior: none;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -228,6 +229,12 @@ p {
     /* Keep text on left */
 }
 
+.right-aligned {
+    text-align: right;
+    padding-left: 50vw;
+    /* Keep text on right */
+}
+
 @media (max-width: 900px) {
     .left-aligned {
         padding-right: 8vw;
@@ -252,12 +259,6 @@ p {
         padding: 0.5rem 1rem;
         font-size: 0.85rem;
     }
-}
-
-.right-aligned {
-    text-align: right;
-    padding-left: 50vw;
-    /* Keep text on right */
 }
 
 .cta-group {
